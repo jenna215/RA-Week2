@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <form action="server.php">
+        <fieldset>
+            <legend>Personal Information:</legend>
+            First Name: <br>
+            <input type="text" name="firstname" value="" placeholder="First Name Here"><br>
+            Last Name: <br>
+            <input type="text" name="lastname" value="" placeholder="Last Name Here"><br>
+            Email: <br>
+            <input type="text" name="email" value="" placeholder="Email Here"><br>
+            Message: <br>
+            <input type="text" name="message" value="" placeholder="Message Here"><br>
+            Priority: <br>
+            <select name="priority" id="prioritySelect" multiple>
+                <option value="high">High Priority</option>
+                <option value="low">Low Priority</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
